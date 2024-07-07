@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: dangnguyen@uchicago.edu
 
 profile:
   align: right
@@ -13,14 +13,16 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-I am a first-year Computer Science PhD student at The University of Chicago advised by Chenhao Tan. My research interests include human-centered AI, natural language processing, interpretability, and deep learning for healthcare. Previously, I graduated, also from UChicago, with a double degree in Computer Science and Mathematics. 
+I am a first-year Computer Science PhD student at The University of Chicago advised by [Chenhao Tan](https://chenhaot.com/) in the [Chicago Human+AI Lab](https://chicagohai.github.io/). My research interests include human-centered AI, natural language processing, interpretability, and deep learning for healthcare. Previously, I graduated, also from UChicago, with a double degree in Computer Science and Mathematics. 
 
 In my free time you can find me in the weight room, practicing Brazilian Jiu Jitsu, or just reading a good book. I am also a big fan of cold weather and prefer to spend vacations on snowy mountains rather than sunny beaches. If you think we have similar interests and would like to chat about research, please feel free to reach out!
+
+[CV](assets/pdf/cv.pdf) | [Google Scholar](https://scholar.google.com/citations?user=ZD4Z0Z4AAAAJ)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
