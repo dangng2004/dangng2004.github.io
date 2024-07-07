@@ -14,7 +14,6 @@ profile:
   #   <p>Your City, State 12345</p>
 
 news: false # includes a list of news items
-latest_posts: false
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
@@ -23,7 +22,7 @@ I am a first-year Computer Science PhD student at The University of Chicago advi
 
 In my free time you can find me in the weight room, practicing Brazilian Jiu Jitsu, or just reading a good book. I am also a big fan of cold weather and prefer to spend vacations on snowy mountains rather than sunny beaches. If you think we have similar interests and would like to chat about research, please feel free to reach out!
 
-[CV](assets/pdf/cv.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=ZD4Z0Z4AAAAJ)
+[CV](assets/pdf/cv.pdf)  \|  [Google Scholar](https://scholar.google.com/citations?user=ZD4Z0Z4AAAAJ)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
