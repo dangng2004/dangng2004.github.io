@@ -530,6 +530,17 @@ footer.sticky-bottom {
   }
 }
 
+.post-header-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.post-header {
+  flex: 1 1 60%;
+  margin-right: 20px; /* Adds some space between header and profile */
+}
+
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
@@ -860,6 +871,10 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
