@@ -530,26 +530,26 @@ footer.sticky-bottom {
   }
 }
 
-article {
-  max-width: 75%;
-}
+// article {
+//   max-width: 75%;
+// }
 
-.post-header-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 2rem; // Add some space before the content
-}
+// .post-header-wrapper {
+//   display: flex;
+//   align-items: flex-start;
+//   justify-content: space-between;
+//   margin-bottom: 2rem; // Add some space before the content
+// }
 
 // .post-header {
 //   flex: 1 1 60%;
 //   margin-right: 20px; /* Adds some space between header and profile */
 // }
 
-.post-header {
-  flex: 0 1 75%; // Adjust this percentage to control text width
-  padding-right: 2rem; // Add some space between text and image
-}
+// .post-header {
+//   flex: 0 1 75%; // Adjust this percentage to control text width
+//   padding-right: 2rem; // Add some space between text and image
+// }
 
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
@@ -881,7 +881,7 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
-  display: block;
+  // display: block;
 
   .post-meta {
     color: var(--global-text-color-light);
