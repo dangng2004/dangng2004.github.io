@@ -31,22 +31,11 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
-// // Profile
-// .profile {
-//   flex: 1 1 30%;
-//   max-width: 30%; /* Prevents the profile from becoming too wide */
-//   margin-top: 0; /* Aligns top of profile with post header */
-
-//   img {
-//     width: 100%;
-//   }
-// }
+// Profile
 
 .profile {
-  // flex: 0 0 30%; // Fixed width for the profile section
-  // max-width: 30%; // Ensures it doesn't grow beyond 30%
-  // margin-left: auto; // Pushes the profile to the right
-
+  margin-top: 1rem;
+  
   img {
     width: 100%;
     height: auto;
