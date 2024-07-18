@@ -182,10 +182,6 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
-.clearfix {
-  margin-bottom: 5rem;
-}
-
 .profile {
   width: 100%;
 
@@ -663,6 +659,7 @@ footer.sticky-bottom {
   }
 
   h2 {
+    margin-top: 5rem;
     margin-bottom: 1rem;
 
     span {
