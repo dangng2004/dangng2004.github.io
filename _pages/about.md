@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a first-year Computer Science PhD student at The University of Chicago advised by [Chenhao Tan](https://chenhaot.com/) in the [Chicago Human+AI Lab](https://chicagohai.github.io/). My research interests include human-centered AI, natural language processing, interpretability, and deep learning for healthcare. Previously, I graduated, also from UChicago, with a double degree in Computer Science and Mathematics. 
+I am a first-year Computer Science PhD student at The University of Chicago advised by [Chenhao Tan](https://chenhaot.com/) in the [Chicago Human+AI Lab](https://chicagohai.github.io/). My research interests include human-centered AI, natural language processing, interpretability, and machine learning for healthcare. Previously, I graduated, also from UChicago, with degrees in Computer Science and Mathematics. 
 
-In my free time you can find me in the weight room, practicing Brazilian Jiu Jitsu, or just reading a good book. I am also a big fan of cold weather and prefer to spend vacations on snowy mountains rather than sunny beaches. If you think we have similar interests and would like to chat about research, please feel free to reach out!
+In my free time you can find me in the weight room, running outside, practicing Brazilian Jiu Jitsu, or just watching a good movie. I am also a big fan of the cold weather and a beginner skier! If you think we have similar interests and would like to chat about research or collaborate, please feel free to reach out.
 
 [CV](assets/pdf/cv.pdf)  \|  [Google Scholar](https://scholar.google.com/citations?user=ZD4Z0Z4AAAAJ)
 
