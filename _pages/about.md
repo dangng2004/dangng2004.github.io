@@ -18,11 +18,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a first-year Computer Science PhD student at The University of Chicago advised by [Chenhao Tan](https://chenhaot.com/) in the [Chicago Human+AI Lab](https://chicagohai.github.io/). My research interests include human-centered AI, natural language processing, interpretability, and machine learning for healthcare. Previously, I graduated, also from UChicago, with degrees in Computer Science and Mathematics. 
+<!-- I am a first-year Computer Science PhD student at The University of Chicago advised by [Chenhao Tan](https://chenhaot.com/) in the [Chicago Human+AI Lab](https://chicagohai.github.io/). My research interests include human-centered AI, natural language processing, interpretability, and machine learning for healthcare. Previously, I graduated, also from UChicago, with degrees in Computer Science and Mathematics.  -->
 
-In my free time you can find me in the weight room, running outside, practicing Brazilian Jiu Jitsu, or just watching a good movie. I am also a big fan of the cold weather and a beginner skier! If you think we have similar interests and would like to chat about research or collaborate, please feel free to reach out.
+I am a first-year Computer Science PhD student in the [Chicago Human+AI Lab](https://chicagohai.github.io/) at the University of Chicago advised by [Chenhao Tan](https://chenhaot.com/). My research aims at understanding large language models (their mechanisms, decision-making, biases) and how they can help us understand complex systems such as the physical world.
 
-[CV](assets/pdf/cv.pdf)  \|  [Google Scholar](https://scholar.google.com/citations?user=ZD4Z0Z4AAAAJ)
+<!-- In my free time you can find me in the weight room, running outside, practicing Brazilian Jiu Jitsu, or just watching a good movie. I am also a big fan of the cold weather and a beginner skier! If you think we have similar interests and would like to chat about research or collaborate, please feel free to reach out. -->
+
+Outside of research, you can find me practicing Brazilian Jiu Jitsu or lifting weights. If you think we have similar interests and would like to chat, feel free to reach out!
+
+[CV](assets/pdf/DangNguyen_CV.pdf)  \|  [Google Scholar](https://scholar.google.com/citations?user=ZD4Z0Z4AAAAJ)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
