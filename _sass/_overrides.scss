@@ -1,0 +1,67 @@
+// Site-wide typography weight adjustments
+// Goal: make text slightly bolder without changing fonts.
+
+// Typography families (use Inter for a modern, clean look)
+html,
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', Arial, sans-serif;
+}
+
+// Body text and common inline elements
+html,
+body,
+p,
+li,
+td,
+th,
+span,
+div {
+  font-weight: 400;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+}
+
+// Keep code blocks readable
+pre,
+code,
+kbd,
+samp {
+  font-weight: 400;
+}
+
+// Avoid over-weighting small UI labels
+small,
+.caption {
+  font-weight: 500;
+}
+
+// News section: make items heavier to match overall tone
+.news {
+  .table {
+    td {
+      font-weight: 400;
+    }
+
+    th {
+      font-weight: 500;
+    }
+  }
+
+  .news-title {
+    font-weight: 500;
+  }
+}
+
