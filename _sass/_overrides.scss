@@ -48,14 +48,25 @@ small,
   font-weight: 500;
 }
 
+// Larger intro text on the about page
+.intro-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
 // News section: make items heavier to match overall tone
 .news {
+  font-size: 1.125rem;
+  line-height: 1.8;
   .table {
+    font-size: inherit; // override base/table defaults
     td {
+      font-size: inherit;
       font-weight: 400;
     }
 
     th {
+      font-size: inherit;
       font-weight: 500;
     }
   }
@@ -63,5 +74,11 @@ small,
   .news-title {
     font-weight: 500;
   }
+}
+
+// Selected publications on the about page (only the home section)
+.selected-papers-header ~ .publications {
+  font-size: 1.125rem;
+  line-height: 1.8;
 }
 
