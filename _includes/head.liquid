@@ -69,7 +69,22 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <!-- Dark Mode -->
-<script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
+<script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}">
+</script>
+<script>
+  (function () {
+    var key = 'theme';
+    var saved = localStorage.getItem(key);
+    var def = '{{ site.default_theme | default: "light" }}';
+    if (def !== 'light' && def !== 'dark' && def !== 'system') {
+      def = 'light';
+    }
+    if (!saved || saved === 'system') {
+      localStorage.setItem(key, def);
+    }
+  })();
+  // If a theme was previously set to light/dark, keep it.
+</script>
 {% if site.enable_darkmode %}
   <link
     defer
