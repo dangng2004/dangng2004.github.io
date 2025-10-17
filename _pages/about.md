@@ -28,9 +28,9 @@ study communication in the age of talking machines.
 Lately, I have been thinking about LLM **pragmatic reasoning**, how they can
 coordinate, persuade, and inspire us in economic collaborations beyond mere
 instruction following. This calls for more dynamic benchmarks, for which I see
-simulated environments, or *communication games* as potential solutions.
+simulated environments, or *communication games*, as potential solutions.
 [HR Simulator™](https://hrsimulator.communicationgames.ai/) is the first game
-I built in this direction.
+I built in this direction. I am also interested in LLM-human interaction, including uncovering and mitigating social biases in models' decision-making.
 
 <!-- My research aims at understanding large language models (their
 mechanisms, decision-making, biases) and how they can help us understand
