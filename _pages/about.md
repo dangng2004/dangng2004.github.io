@@ -25,24 +25,26 @@ Chicago advised by [Chenhao Tan](https://chenhaot.com/). I also work with
 [Communication & Intelligence](https://ci.cs.uchicago.edu/) initiative to
 study communication in the age of talking machines.
 
-Lately, I have been thinking about LLM **pragmatic reasoning**, how they can
+<!-- Lately, I have been thinking about LLM **pragmatic reasoning**, how they can
 coordinate, persuade, and inspire us in economic collaborations beyond mere
 instruction following. This calls for more dynamic benchmarks, for which I see
 simulated environments, or *communication games*, as potential solutions.
 [HR Simulator™](https://hrsimulator.communicationgames.ai/) is the first game
-I built in this direction. I am also interested in LLM-human interaction, including uncovering and mitigating social biases in models' decision-making.
+I built in this direction. I am also interested in LLM-human interaction, including uncovering and mitigating social biases in models' decision-making. -->
 
-<!-- My research aims at understanding large language models (their
-mechanisms, decision-making, biases) and how they can help us understand
-complex systems such as the physical world. I am also excited about the
-prospects of AI in healthcare and have done some work in this area. -->
+I am interested in the following research topics:
+- **Alignment**: understanding the behavior and values of LLMs and how to align them with human values.
+- **LLM communication**: improving LLMs' ability to communicate and act in high-stakes settings.
+- **LLM creativity**: improving LLMs' ability to create novel content, ideas, and ways of acting.
+- **Human-centered AI**: understanding human-AI interaction and how to design AI that improves humanity.
 
-Outside of research, you can find me practicing Brazilian Jiu Jitsu or lifting
-weights. If you think we have similar interests, feel free to reach out.
+Outside of research, you can find me training Brazilian Jiu Jitsu or lifting
+weights. If you think we can have a good conversation, feel free to reach out.
+
 </div>
 
 <span style="font-size: 1.3rem">
-  <a href="assets/pdf/DangNguyen_CV.pdf"
+  <a href="assets/pdf/cv.pdf"
      title="CV"
      aria-label="CV"
      target="_blank"
