@@ -104,6 +104,10 @@ small,
   line-height: 1.8;
 }
 
+a.news-link {
+  color: var(--global-theme-color) !important;
+}
+
 #back-to-top {
   display: none !important;
 }
