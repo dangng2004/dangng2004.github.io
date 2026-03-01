@@ -33,6 +33,7 @@ simulated environments, or *communication games*, as potential solutions.
 I built in this direction. I am also interested in LLM-human interaction, including uncovering and mitigating social biases in models' decision-making. -->
 
 I am interested in the following research topics:
+
 - **Alignment**: understanding the behavior and values of LLMs and how to align them with human values.
 - **LLM communication**: improving LLMs' ability to communicate and act in high-stakes settings.
 - **LLM creativity**: improving LLMs' ability to create novel content, ideas, and ways of acting.
@@ -70,4 +71,3 @@ weights. If you think we can have a good conversation, feel free to reach out.
     <i class="fa-regular fa-envelope"></i>
   </a>
 </span>
-
