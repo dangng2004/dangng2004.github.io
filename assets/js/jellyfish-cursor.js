@@ -121,8 +121,6 @@
 
   const style = document.createElement("style");
   style.textContent = `
-    * { cursor: none !important; }
-
     #jellyfish-cursor {
       position: fixed;
       pointer-events: none;
@@ -156,6 +154,10 @@
     mouseY = 0;
   let curX = 0,
     curY = 0;
+  let previousCurX = 0,
+    previousCurY = 0;
+  let velocityX = 0,
+    velocityY = 0;
   let targetAngle = 0; // degrees; 0 = pointing up
   let currentAngle = 0;
 
@@ -165,8 +167,9 @@
   });
 
   function lerpAngle(a, b, t) {
-    // Shortest-path lerp across ±180°
-    let d = ((b - a + 540) % 360) - 180;
+    // JavaScript remainder can be negative, so normalize twice. This keeps
+    // the shortest-path delta stable even after multiple full rotations.
+    const d = ((((b - a + 180) % 360) + 360) % 360) - 180;
     return a + d * t;
   }
 
@@ -196,11 +199,19 @@
     curX += dx * 0.15;
     curY += dy * 0.15;
 
-    // Orient toward direction of travel
-    const speed = Math.sqrt(dx * dx + dy * dy);
-    if (speed > 0.3) {
-      // atan2(dy,dx) → angle from +x; +90° rotates reference so 0° = upward
-      targetAngle = (Math.atan2(dy, dx) * 180) / Math.PI + 90;
+    // Orient from the follower's actual movement. Using the remaining
+    // target distance here makes circular motion point radially and jitter
+    // as the lagging follower catches up.
+    const stepX = curX - previousCurX;
+    const stepY = curY - previousCurY;
+    previousCurX = curX;
+    previousCurY = curY;
+    velocityX += (stepX - velocityX) * 0.25;
+    velocityY += (stepY - velocityY) * 0.25;
+    const speed = Math.hypot(velocityX, velocityY);
+    if (speed > 0.05) {
+      // atan2(velocityY, velocityX) → angle from +x; +90° rotates reference so 0° = upward
+      targetAngle = (Math.atan2(velocityY, velocityX) * 180) / Math.PI + 90;
     }
     currentAngle = lerpAngle(currentAngle, targetAngle, 0.1);
 

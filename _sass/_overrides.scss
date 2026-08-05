@@ -76,6 +76,15 @@ small,
   line-height: 1.8;
 }
 
+// Center the profile photo instead of retaining the desktop float offset.
+@media (max-width: 575.98px) {
+  .profile.float-left,
+  .profile.float-right {
+    float: none !important;
+    margin: 1rem auto 1.5rem !important;
+  }
+}
+
 // News section: make items heavier to match overall tone
 .news {
   font-size: 1.125rem;
