@@ -20,9 +20,8 @@ social: false # includes social icons at the bottom of the page
 <div class="intro-text" markdown="1">
 I'm a Computer Science PhD student in the
 [Chicago Human+AI Lab](https://chicagohai.github.io/) at the University of
-Chicago advised by [Chenhao Tan](https://chenhaot.com/). I also work with
-[Ari Holtzman](https://ariholtzman.com/) as part of a wider
-[Communication & Intelligence](https://ci.cs.uchicago.edu/) initiative.
+Chicago advised by [Chenhao Tan](https://chenhaot.com/). 
+<!-- I also work with [Ari Holtzman](https://ariholtzman.com/) as part of a wider [Communication & Intelligence](https://ci.cs.uchicago.edu/) initiative. -->
 
 <!-- Lately, I have been thinking about LLM **pragmatic reasoning**, how they can
 coordinate, persuade, and inspire us in economic collaborations beyond mere
@@ -38,11 +37,16 @@ I built in this direction. I am also interested in LLM-human interaction, includ
 - **LLM creativity**: improving LLMs' ability to create novel content, ideas, and ways of acting.
 - **Human-centered AI**: understanding human-AI interaction and how to design AI that improves humanity. -->
 
-I'm interested in AI evaluation, including evaluation of the evaluators. What biases and tendencies do models have, and how might their widespread adoption change the way we do things, such as in [communication](https://arxiv.org/abs/2603.20231) and [science](https://arxiv.org/abs/2606.19749)? When unintended biases become values that models stand by, how do we ensure that their values are compatible with ours? As such, I'm also broadly interested in AI safety and alignment.
+I'm interested in AI evaluation, including evaluation of the evaluators (LLMs-as-judges). What biases and tendencies do models have, and how might their widespread adoption affect human systems, such as in [communication](https://arxiv.org/abs/2603.20231) and [science](https://arxiv.org/abs/2606.19749)? When unintended biases get amplified into harmful behaviors via large-scale model-to-model and model-to-human interactions, how can we intervene effectively?
 
-A related question I find fascinating is how do we get AI to write better. This has eluded progress despite impressive strides made in more verifiable domains. The next step change in AI will happen when they can write a paper scientists find "insightful".
+A salient version of this problem I have been thinking about is how the AI-mediated surge in research output will negatively affect the quality of conference reviewing. I helped develop [OpenAIReview](https://openaireview.org) as a potential solution to this issue.
 
-Outside of research, you can find me training Brazilian Jiu Jitsu or lifting
+<!-- become values that models stand by, how do we ensure that their values are compatible with ours?  -->
+<!-- As such, I'm also broadly interested in AI safety and alignment. -->
+
+<!-- A related question I find fascinating is how do we get AI to write better. This has eluded progress despite impressive strides made in more verifiable domains. The next step change in AI will happen when they can write a paper scientists find "insightful". -->
+
+Outside of research, I'm quite active and you can find me training Brazilian Jiu Jitsu, boxing, or lifting
 weights. If you'd like to chat, feel free to reach out!
 
 </div>
