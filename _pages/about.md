@@ -37,9 +37,9 @@ I built in this direction. I am also interested in LLM-human interaction, includ
 - **LLM creativity**: improving LLMs' ability to create novel content, ideas, and ways of acting.
 - **Human-centered AI**: understanding human-AI interaction and how to design AI that improves humanity. -->
 
-I'm interested in AI evaluation, including evaluation of the evaluators (LLMs-as-judges). What biases and tendencies do models have, and how might their widespread adoption affect human systems, such as in [communication](https://arxiv.org/abs/2603.20231) and [science](https://arxiv.org/abs/2606.19749)? When unintended biases get amplified into harmful behaviors via large-scale model-to-model and model-to-human interactions, how can we intervene effectively?
+I'm interested in AI evaluation, including how to evaluate the evaluators when using LLMs as judges. What biases and tendencies do models have, and how might their widespread adoption affect human systems, such as in [science](https://arxiv.org/abs/2606.19749) and [communication](https://arxiv.org/abs/2603.20231)? When unintended biases get amplified into harmful behaviors via large-scale model-to-model and model-to-human interactions, how can we intervene effectively?
 
-A salient version of this problem I have been thinking about is how the AI-mediated surge in research output will negatively affect the quality of conference reviewing. I helped develop [OpenAIReview](https://openaireview.org) as a potential solution to this issue.
+An important version of this problem I have been actively working on is preventing the AI-mediated surge in research output from negatively affecting the quality of conference reviewing. I helped develop [OpenAIReview](https://openaireview.org) as a potential solution to this issue. I'm also interested in using AI to assist with verification and understanding in mathematics in response to the research [acceleration](https://github.com/openai/math) driven by AI.
 
 <!-- become values that models stand by, how do we ensure that their values are compatible with ours?  -->
 <!-- As such, I'm also broadly interested in AI safety and alignment. -->

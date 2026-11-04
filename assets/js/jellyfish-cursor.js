@@ -146,7 +146,34 @@
   cursor.id = "jellyfish-cursor";
   const svg = buildSVG();
   cursor.appendChild(svg);
+  cursor.style.display = "none";
   document.body.appendChild(cursor);
+
+  // ── Toggle (off by default; preference persisted across pages) ─────────────
+
+  const STORAGE_KEY = "jellyfish-cursor-enabled";
+  let enabled = false;
+  let rafId = null;
+  try {
+    enabled = localStorage.getItem(STORAGE_KEY) === "true";
+  } catch (e) {}
+
+  function setEnabled(on) {
+    enabled = on;
+    try {
+      localStorage.setItem(STORAGE_KEY, String(on));
+    } catch (e) {}
+    cursor.style.display = on ? "" : "none";
+    if (on && rafId === null) {
+      // Snap to the pointer so the jellyfish doesn't swim in from the corner
+      curX = previousCurX = mouseX;
+      curY = previousCurY = mouseY;
+      rafId = requestAnimationFrame(tick);
+    } else if (!on && rafId !== null) {
+      cancelAnimationFrame(rafId);
+      rafId = null;
+    }
+  }
 
   // ── Animation loop ─────────────────────────────────────────────────────────
 
@@ -222,8 +249,13 @@
     cursor.style.transform = `rotate(${currentAngle}deg)`;
 
     animateTentacles(t);
-    requestAnimationFrame(tick);
+    rafId = requestAnimationFrame(tick);
   }
 
-  requestAnimationFrame(tick);
+  const toggle = document.getElementById("jellyfish-toggle");
+  if (toggle) {
+    toggle.checked = enabled;
+    toggle.addEventListener("change", () => setEnabled(toggle.checked));
+  }
+  setEnabled(enabled);
 })();
